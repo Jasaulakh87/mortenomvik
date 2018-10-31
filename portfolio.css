@@ -1,0 +1,345 @@
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+.navbar{
+    padding: 15px;
+    color: #095687;
+}
+
+.myname{
+	font-size: 30px;
+	color: #095687;
+}
+
+.myname:hover{
+    color: #B44D0F !important;
+}
+
+.navbar-nav{
+	padding-right: 20px;
+	color: blue;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #065DA6;
+	padding-right: 15px;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #B44D0F !important;
+	
+}
+
+
+.first{
+    background: url("http://panorazzi.com/wp-content/themes/panoRazzi/img/project-background.jpg");
+    padding-top: 227px;
+}
+
+.row.no-pad {
+  margin-right:0;
+  margin-left:0;
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+.jas img{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+ .contact-detail{
+    background: white;
+    color: rgba(15, 81, 123, 0.97);
+    height: 400px;
+}
+
+.contact-detail h2{
+    font-size: 	26px;
+    margin-left: 30px;
+    margin-top: 27px;
+    padding-top: 20px;
+}
+.contact-detail h4{
+    text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+    margin-left: 30px;
+    line-height: 12px;
+    
+}
+.contact-detail h5{
+	font-weight: bold;
+	font-size: 15px;
+    margin-top: 27px;
+    margin-left: 30px;
+    line-height: 12px;
+    
+}
+.contact-detail p{
+	font-size: 15px;
+    margin-left: 30px;
+    line-height: 12px;
+    
+}
+  
+	
+.second{
+    background-color: #e1e5eb;
+    height: 100%;      
+}
+.social{
+    background-color: rgba(15, 81, 123, 0.97);
+    font-size:22px;
+    padding: 10px ; 
+    text-align: center;
+}
+.social li{
+    display: inline-block;
+    padding-top: 15px;
+
+
+
+}
+.social i{
+    color: white;
+    font-size: 25px;
+    padding: 10px 30px 10px 25px;
+
+}
+.intro{
+    color: rgba(15, 81, 123, 0.97);  
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.intro p{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.third{
+	color: rgba(15, 81, 123, 0.97);
+}
+
+.third h3{
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+
+.fourth{
+	color: rgba(15, 81, 123, 0.97);
+}
+.fourth h3{
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: center;
+	
+}
+
+.fifth{
+	color: rgba(15, 81, 123, 0.97);
+	height: 100%
+}
+.fifth h3{
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: center;
+	
+}
+
+
+.myskill{
+	font-family: cursive;
+	font-size: 20px;  
+
+}
+
+
+.seventh{
+	color: rgba(15, 81, 123, 0.97);
+
+}
+
+.seventh h3{
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: center;
+    
+}
+
+.seventh h5{
+	font-weight: bold;
+	font-size: 17px; 
+	
+    
+}
+.seventh p{
+	text-align:justify;
+    margin-bottom: 40px;
+}
+
+.eighth{
+	background-color: #e1e5eb;
+	color: rgba(15, 81, 123, 0.97);
+	height: 100%;
+	
+}
+
+.eighth h3{
+	text-align: center;
+	padding-top:20px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+input[type=text]{
+    width:98%;
+    margin: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	color: black;
+	
+}
+
+input[type=email]{
+    width:98%;
+    margin: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	color: black;
+	
+}
+
+textarea:focus, input:focus {
+    color: black;
+}
+
+/*#subject{
+    width:98%;
+    margin: 5px;
+}*/
+
+#message{
+	height: 140px;
+    width:98%;
+	margin: 3px;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	color: black;
+}
+
+input[type=submit]{
+    width: 98%;
+	margin: 2px;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color: rgba(15, 81, 123, 0.97);
+	color: white;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease;
+  opacity: 0;
+ }
+ [placeholder]:focus::-moz-placeholder {
+  transition: opacity 0.5s 0.5s ease;
+  opacity: 0;
+ }
+ [placeholder]:focus::-ms-input-placeholder  {
+  transition: opacity 0.5s 0.5s ease;
+  opacity: 0;
+ }
+
+.contact-info{
+	margin-left: 15px;
+}
+
+.contact-info h4{
+	font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.contact-info h4 span{
+	font-size: 15px;
+	text-transform: uppercase;
+    
+}
+
+.contact-info p{
+	font-size: 15px;
+    margin-bottom: 18px;
+	font-weight: bold;
+}
+
+.contact-info p span{
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.contact-info li{
+	display: inline-block;
+	margin-bottom: 10px;		
+}
+
+.contact-info hr{
+  	width: 80%;
+    margin-left: 1px;
+    margin-top: 50px;
+	border-bottom: 0.5px solid rgba(15, 81, 123, 0.97);
+}
+
+.contact-social{
+	display: block;
+	list-style-type: none;
+	color: black;
+	font-size:20px;
+	margin-top: -24px;
+	line-height: 2px;
+	
+}
+
+.contact-social li {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 20px;
+    
+}
+
+.contact-social i{
+color: rgba(15, 81, 123, 0.97);
+}
+
+.footer p{
+	color: rgba(15, 81, 123, 0.97);
+	text-align: center;
+	padding:6px;
+	margin: 2px;
+}
